@@ -15,7 +15,7 @@ if "%ID%"=="0" (
     goto START_ANYDESK
 )
 
-echo disalardp | anydesk.exe --set-password _full_access
+echo toolboxlap | anydesk.exe --set-password _full_access
 start "" /MAX "C:\Users\Public\Desktop\VMQuickConfig"
 python -c "import pyautogui as pag; pag.click(147, 489, duration=2)"
 python -c "import pyautogui as pag; pag.click(156, 552, duration=2)"
